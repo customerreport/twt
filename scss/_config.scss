@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$blue: #1a6cd6;
+$dark: #757575;
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+button{
+    outline: none;
+    border: 1px solid;
+    border-radius: 5px;
+    color: $dark;
+}
+.input_phrase{
+    max-width: 40rem;
+    width: 100%;
+    resize: none;
+}
+a{
+    text-decoration: none;
+    color: $blue;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.warning{
+    color: rgb(209, 45, 45);
+    font-size: 18px;
+}
